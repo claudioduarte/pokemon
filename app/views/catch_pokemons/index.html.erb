@@ -1,0 +1,15 @@
+<div class="container shadow-sm mb-5 bg-body rounded p-5 w-50 mt-5">
+  <div class="row justify-content-center">
+    <%= image_tag 'pokemon-logo', class: 'w-50 mb-3' %>
+    <%= image_tag 'pokemon-icons', class: 'mb-3' %>
+  </div>
+  <div class="row justify-content-center">
+    <%= render 'form' %>
+    <%= render 'alert' if notice %>
+    <%= render 'results' if @pokemon_caught.present? %>
+  </div>
+</div>
+
+<%= render 'how_to' %>
+<%= render 'credits' %>
+<%= render 'footer' %>

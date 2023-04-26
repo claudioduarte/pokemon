@@ -1,0 +1,27 @@
+<div class="card text-dark bg-light mt-3 text-center flex-grow-1">
+  <div class="card-header">
+    <strong>Movimentos Registados</strong>
+  </div>
+  <div class="card-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Posição</th>
+          <th scope="col">Direção</th>
+          <th scope="col">Total Pokémon</th>
+          <th scope="col">Coordenadas</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @movements.each do |m| %>
+        <tr>
+          <th><%= m[:position] %></th>
+          <td><%= m[:direction] %></td>
+          <td><%= m[:pokemon] %></td>
+          <td><%= "x: #{m[:coordinates][:x]}, y: #{m[:coordinates][:y]}" %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

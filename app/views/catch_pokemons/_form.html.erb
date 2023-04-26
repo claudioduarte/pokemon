@@ -1,0 +1,8 @@
+<div class="container">
+  <%= form_with url: catch_pokemons_path, data: { turbo: false } do |form| %>
+    <div class="input-group g-2 justify-content-center">
+      <%= form.text_field :sequence, placeholder: 'Digita uma Sequência (i.e. NSEO)', class: 'form-control' %>
+      <%= form.submit 'Submeter', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
