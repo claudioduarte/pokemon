@@ -33,6 +33,10 @@ gem 'bootstrap', '~> 5.1.3'
 
 gem 'bundle-audit', '~> 0.1.0'
 
+gem 'brakeman', '~> 5.4', '>= 5.4.1'
+
+gem 'rubocop', '~> 1.51'
+
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
