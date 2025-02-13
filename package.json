@@ -1,0 +1,27 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "Ash is catching Pokémon in a world consisting of an infinite two-dimensional grid of houses. In each house there is exactly 1 Pokémon. Help him catch 'em all!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "author": "Cláudio Duarte",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Error: no build specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioduarte/pokemon.git"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "bugs": {
+    "url": "https://github.com/claudioduarte/pokemon/issues"
+  },
+  "homepage": "https://github.com/claudioduarte/pokemon#readme"
+}
