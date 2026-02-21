@@ -339,6 +339,7 @@ PLATFORMS
   arm64-darwin-115
   arm64-darwin-21
   arm64-darwin-23
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
@@ -360,7 +361,6 @@ DEPENDENCIES
   redis (~> 4.0)
   rspec-rails (~> 6.0.0)
   rubocop (~> 1.51)
-  selenium-webdriver
   simplecov
   simplecov-rcov
   sprockets-rails
@@ -371,7 +371,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.3.10p183
 
 BUNDLED WITH
    2.4.12

@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.2.2'
+ruby '3.3.10'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1', '>= 7.1.5.1'
@@ -84,7 +84,6 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
   gem 'rails-controller-testing'
-  gem 'selenium-webdriver'
   gem 'simplecov'
   gem 'simplecov-rcov'
   gem 'webdrivers'
