@@ -13,9 +13,9 @@ Attention: if he passes a house where he has already passed (and, therefore, whe
 The setups steps expect following tools installed on the system.
 
 - PostgreSQL 14
-- Ruby 3.2.2
-- Rails 7.0.4.3
-- Puma 5
+- Ruby 3.3.10
+- Rails 7.2.3.1
+- Puma 6.6.1
 
 ## Installation
 
